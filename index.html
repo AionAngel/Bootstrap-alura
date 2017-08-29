@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
@@ -13,23 +14,51 @@
 
             <h2>Sobre Nós</h2>
             <img class="img-responsive" src="img/empresa.jpg" alt="">
-       
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#first-paragraph">Teste Lucas</h3>
+
+
+            <div class="panel-group" id="paineis-sobre">
+                <!--Accord 1-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#first-paragraph" data-parent="#paineis-sobre">Teste Lucas</h3>
+                    </div>
+                    <div id="first-paragraph" class="collapse">
+                        <div class="panel-body">
+                            <p >Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="panel-body">
-                    <p id="first-paragraph" class="collapse">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem </p>
+
+                <!--Accord 2-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#second-paragraph" data-parent="#paineis-sobre">Teste Lucas</h3>
+                    </div>
+                    <div id="second-paragraph" class="collapse">
+                        <div class="panel-body">
+                            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Accord 3-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#third-paragraph" data-parent="#paineis-sobre">Teste Lucas</h3>
+                    </div>
+                    <div id="third-paragraph" class="collapse">
+                        <div class="panel-body">
+                            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
 
-            <h3 data-toggle="collapse" data-target="#second-paragraph">Teste Lucas</h3>
-            <p id="second-paragraph" class="collapse">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e </p>
-
-            <h3 data-toggle="collapse" data-target="#third-paragraph">Teste Lucas</h3>
-            <p id="third-paragraph" class="collapse">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e</p>
-
-    </div>
+    <h2>Nossos Projetos</h2>
+    <img src="img/projetos/casa-castelo.png" alt="Foto da Casa Castelo">
+    <h3>Casa Castelo</h3>
+    <p>A Casa Castelo é o último lancamento da TopCasaFina Arquitetura, feita para um monge.</p>
 
     <script src="jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
