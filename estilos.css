@@ -10,3 +10,9 @@
     margin-bottom: 0;
     font-size: 25px;
 }
+
+.grupo-form {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
