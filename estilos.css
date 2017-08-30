@@ -16,3 +16,16 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    margin-top: 20px;
+
+}
+
+footer address:last-child {
+
+    margin-bottom: 0;
+}
