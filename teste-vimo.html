@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Minha primeira APP Mavo</title>
+        <script src="https://get.mavo.io/mavo.js"></script>
+        <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
+    </head>
+    <body>
+        <main mv-app="TarefasSilotto" mv-storage="local" mv-mode="edit">
+            <header>
+                <h1>Tarefas</h1>
+                <p>[count(done)] feito de [count(task)] totais</p>
+            </header>
+            <ul>
+                <li property="task" mv-multiple>
+                    <label>
+                        <input property="done" type="checkbox" />
+                        <span property="taskTitle">Criar uma WebApp Mavo</span>
+                    </label>
+                </li>
+            </ul>
+        </main>
+    </body>
+</html>
